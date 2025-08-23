@@ -22,7 +22,7 @@ const translations = {
     {
       section: 2,
       caption:
-        "In the end, it's not the years in your life that count. It's the life in your years.",
+        "The most meaningful progress comes not from titles, but from the impact we leave behind.",
     },
     // Section 3
     {
@@ -80,7 +80,7 @@ const translations = {
     {
       section: 2,
       caption:
-        "Pada akhirnya, yang penting bukanlah berapa lama kamu hidup. Yang penting adalah bagaimana kamu menjalani hidupmu.",
+        "Kesuksesan yang paling bermakna tidak datang dari gelar, tapi dari dampak yang kita tinggalkan.",
     },
     // Section 3
     {
