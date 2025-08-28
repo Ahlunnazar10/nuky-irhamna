@@ -203,49 +203,6 @@ const items = [
     icon: "i-lucide-dessert",
   },
 ] satisfies TimelineItem[];
-
-const stacks = [
-  {
-    title: "Nuxt JS",
-    link: "https://nuxt.com/",
-    icon: "logos:nuxt-icon",
-  },
-  {
-    title: "Vue JS",
-    link: "https://vuejs.org/",
-    icon: "vscode-icons:file-type-vue",
-  },
-  {
-    title: "Dart",
-    link: "https://dart.dev/",
-    icon: "vscode-icons:file-type-dartlang",
-  },
-  {
-    title: "Flutter",
-    link: "https://flutter.dev/",
-    icon: "vscode-icons:file-type-flutter",
-  },
-  {
-    title: "Twilwind CSS",
-    link: "https://tailwindcss.com/",
-    icon: "devicon:tailwindcss",
-  },
-  {
-    title: "Laravel",
-    link: "https://laravel.com/",
-    icon: "material-icon-theme:laravel",
-  },
-  {
-    title: "CMS WordPress",
-    link: "https://wordpress.org/",
-    icon: "skill-icons:wordpress",
-  },
-  {
-    title: "DigitalOcean",
-    link: "https://www.digitalocean.com/",
-    icon: "devicon:digitalocean",
-  },
-];
 </script>
 
 <template>
@@ -492,6 +449,51 @@ const stacks = [
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="mb-36" id="career-overview">
+      <div class="flex flex-col gap-6 mb-10">
+        <div class="flex flex-row md:justify-between gap-14 items-center">
+          <div class="flex flex-row items-center gap-2 md:gap-5">
+            <p class="text-2xl md:text-3xl">
+              <span class="text-primary">#</span>reference-letter
+            </p>
+            <div class="w-[80px] md:w-[420px] h-[1px] bg-primary"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <iframe
+          class="w-full h-[40rem]"
+          src="/docs/pegasus.pdf"
+          frameborder="0"
+        ></iframe>
+
+        <iframe
+          class="w-full h-[40rem]"
+          src="/docs/c&w.pdf"
+          frameborder="0"
+        ></iframe>
+
+        <iframe
+          class="w-full h-[40rem]"
+          src="/docs/sodexho.pdf"
+          frameborder="0"
+        ></iframe>
+
+        <iframe
+          class="w-full h-[40rem]"
+          src="/docs/sodexho2.pdf"
+          frameborder="0"
+        ></iframe>
+
+        <iframe
+          class="w-full h-[40rem]"
+          src="/docs/skk.pdf"
+          frameborder="0"
+        ></iframe>
       </div>
     </section>
 
