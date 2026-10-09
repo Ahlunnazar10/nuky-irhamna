@@ -138,6 +138,13 @@ const items = [
 		url: "https://asx.sportshero.live",
 	},
 	{
+		date: "Oct 2025",
+		title: "Tax Review Consultant",
+		description: "Moduchon",
+		icon: "i-lucide-hand-coins",
+		url: "#",
+	},
+	{
 		date: "2021 - 2024",
 		title: "Founder & Director ",
 		description: "MSS HRPay",
